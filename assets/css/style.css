@@ -78,6 +78,10 @@
     padding-top: 10px;
     color: #153E45;
   }
+
+  ul {
+    list-style-type: none;
+  }
   
   @media (min-width: 1024px) {
     #hero {
@@ -91,8 +95,11 @@
       }
 
     #hero h2 {
-      font-size: 18px;
-      line-height: 24px;
-      margin-bottom: 30px;
+      font-size: 24px;
+      margin: 0 0 10px 120px;
     }
+
+    #hero ul {
+        margin: 0 0 10px 100px;
+      }
   }
